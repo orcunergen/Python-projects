@@ -1,0 +1,10 @@
+name = input("adınızı girin: ")
+surname = input("soy adınızı girin: ")
+clas = input("ders adı girin: ")
+crn = input("CRN girin: ")
+vize1 = float(input("1. vize notunuz: "))
+vize2 = float(input("2. vize notunuz: "))
+final = float(input("final notunuz: "))
+
+ort = round((vize1*0.3 + vize2*0.3 + final*0.4),2)
+print(f"okulumuz öğrencilerinden {name} {surname}, {crn}-{clas} dersinden {ort} ortalamaya sahiptir.")
